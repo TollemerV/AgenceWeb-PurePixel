@@ -1,0 +1,14 @@
+/* custom-link/custom-link.component.css */
+:host {
+  --custom-text-font-weight: 800;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: var(--custom-text-font-weight);
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    margin: 0 15px;
+  }
+  

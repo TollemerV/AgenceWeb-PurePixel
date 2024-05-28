@@ -1,0 +1,66 @@
+.review-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+    margin : 25px;
+    min-height: 60vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.rating {
+    display: flex;
+}
+
+.star {
+    color: #ffc107;
+    margin-right: 5px;
+}
+
+.star:last-child {
+    margin-right: 0;
+}
+
+.vertical-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .review-card {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        margin: 5%;
+        min-height: 0vh;
+    }
+
+}

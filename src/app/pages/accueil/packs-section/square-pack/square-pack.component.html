@@ -1,0 +1,26 @@
+<div (click)="navigate()" [ngClass]="{'flip-card' : onClickRedirectUrl === undefined, 'flip-card-off' : onClickRedirectUrl !== undefined}" class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <div class="toto">
+                <img src="{{image}}" />
+                <div class="text-container">
+                    <p class="title" *ngIf="this.title != undefined">{{title}}</p>
+                    <p class="title">{{text}}</p>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="onClickRedirectUrl === undefined" class="flip-card-back">
+            <br/>
+            <h1>{{title}}</h1>
+            <h1>{{text}}</h1>
+            <br/>
+            <div style="padding: 5px;" *ngFor="let paragraph of paragraphs">
+                <p class="text">{{paragraph}}</p>
+            </div>
+            <div style="margin: auto; text-align:center; position: absolute; bottom:10px; width:100%;">
+                <pp-button (linkClicked)="redirectToPage(url!)" background="black" buttonText="En savoir plus"></pp-button>
+            </div>
+
+        </div>
+    </div>
+</div>

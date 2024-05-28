@@ -1,0 +1,369 @@
+.center-content{
+  width: 90%;
+  margin: 10vw auto 120px auto;
+}
+
+/* Section HEADER/ETIQUETTE */
+
+#header-container {
+  height: 100%;
+  background: url('images/business/background_header.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left-side {
+  width: 50%;
+  position: relative;
+  margin-left: 2rem;
+}
+
+#etiquette-img {
+  position: relative;
+  top: 30px;
+}
+
+.etiquette {
+  position: relative;
+  color: white;
+  margin-left: 1.5vw;
+}
+
+.title-etiquette {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  top: -110px;
+}
+
+.slogan-offre {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  top: -120px;
+}
+
+.first-word {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.title-container {
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.slogan {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.text-container {
+  padding: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.container-text-header {
+  position: relative;
+  top: -50px;
+  margin-left: 2vw;
+}
+
+.container-subtitle {
+  width: 300px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.container-body-header {
+  width: 50%;
+  text-align: left;
+}
+
+.button-margin {
+  margin-left:2vw;
+}
+
+
+/* SECTION TEXTE/PICTOGRAMMES */
+
+#section-picto{
+  background-image: url('svg/offres/business/fleches.svg');
+  background-repeat: no-repeat;
+}
+
+#section-picto h2{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#section-picto p {
+  width: 70%;
+  margin:20px auto;
+}
+
+#pictos{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-pictos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-pictos span{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.item-pictos img {
+  margin-top: 20px;
+}
+
+/* SECTION PURE business */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  margin-top: 70px;
+}
+
+.left, .middle, .right {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+}
+
+#business-container{
+  background-color: #009DBD;
+  padding: 50px;
+  display: flex;
+}
+
+#business-container h3{
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 50px;
+  height: 60px;
+}
+
+#business-details{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 50vh;
+  width: 100%;
+}
+
+#business-details p{
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  width: 60%;
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
+
+#image-content{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#section-3rd {
+  height: 900px;
+  padding: 120px;
+  background-image: url('svg/offres/business/background_3rd.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#why-content {
+  margin-bottom: 150px;
+}
+
+#why-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: normal;
+}
+
+#call-action{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 80%;
+margin-left: 10%;
+}
+
+#call-action h3{
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#call-action p{
+  margin-bottom: 50px;
+  width: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .center-content{
+    margin: 10vw auto 0px auto;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #header-container {
+    flex-direction: column;
+  }
+
+  .left-side {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .title-container {
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .container-text-header {
+    width: 100%;
+}
+
+.container-subtitle {
+  width: 100%;
+}
+
+.container-body-header {
+  width: 100%;
+}
+
+  .button {
+    margin-top: 50px;
+    align-self: none;
+    width: 70%;
+  }
+
+  .title-etiquette{
+    font-size: 32px;
+  }
+
+  .center-content,
+  .container,
+  .display-row {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  #business-container h3 {
+      font-size: 32px;
+      line-height: 36px;
+  }
+
+  .display-row p,
+  #call-action p {
+      width: 100%;
+      max-width: 100%;
+  }
+
+  .item-pictos {
+      width: 50%;
+  }
+
+  #pictos {
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+  }
+
+  .button {
+      margin:-top 20px;
+  }
+
+  #section-3rd {
+      background: none;
+      height: 100%;
+      padding: 0 0px;
+  }
+
+  #why-content {
+      background-image: url('src/assets/svg/offres/business/fleches.svg');
+      background-size: cover;
+      background-position: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 0 20px;
+      text-align: center;
+  }
+
+  #call-action {
+      background-color: #009DBD;
+      padding: 20px;
+      width: 100%;
+      margin-left: 0;
+  }
+
+  #call-action h3{
+      text-align: center;
+      color: white;
+      line-height: normal;
+  }
+  #call-action  p {
+    color: white;
+  }
+
+  .title-etiquette {
+    top: -85px;
+}
+
+.first-word {
+    text-align: left !important;
+}
+
+.second-word {
+    text-align: left !important;
+}
+
+.slogan-offre {
+    display: none;
+}
+
+#section-picto p {
+  margin:0px auto 30px;
+}
+}
+

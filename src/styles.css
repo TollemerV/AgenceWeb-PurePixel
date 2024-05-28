@@ -1,0 +1,99 @@
+/* Tailwind directives  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add global styles to this file, and also import other style files */
+
+html{
+margin:0;
+}
+
+:root {
+  background-color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+* {
+  font-family: 'Poppins', 'Font Awesome', FontAwesome, sans-serif !important;
+}
+
+body{
+  margin-top: 10vw;
+}
+
+a {
+  font-weight: 500;
+  color:black;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #777777;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-weight: 800;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h2 {
+  font-size: 3.2em;
+}
+
+button {
+  border-radius: 1rem;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.first-text {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.no-scroll {
+  overflow: hidden; /* Empêche le défilement du contenu */
+  height: 100%; /* Fixe la hauteur pour empêcher le défilement */
+  width: 100%; /* Fixe la largeur pour éviter les décalages */
+}
+
+#header-container {
+  height: 100%;
+  margin-top: 10vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.4em;
+  }
+
+  h2 {
+    font-size: 2.4em;
+  }
+}
+

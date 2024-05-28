@@ -1,0 +1,314 @@
+.center-content{
+    width: 90%;
+    margin: 10vw auto 120px auto;
+  }
+
+  /* Section HEADER/ETIQUETTE */
+
+  #header-container {
+    height: 100%;
+    background: url('svg/offres/refonte/background_header.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #etiquette-img {
+    position: relative;
+    top: 30px;
+  }
+
+  .etiquette {
+    position: relative;
+    color: white;
+    margin-left: 1.5vw;
+  }
+
+  .title-etiquette {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    top: -110px;
+  }
+
+  .slogan-offre {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    top: -120px;
+  }
+
+  .first-word {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .description {
+    margin-top: 20px;
+  }
+
+
+  /* SECTION TEXTE/PICTOGRAMMES */
+
+  #section-picto{
+    background-image: url('svg/offres/refonte/fleches.svg');
+    background-repeat: no-repeat;
+  }
+
+  #section-picto h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  #section-picto p {
+    width: 70%;
+    margin:20px auto;
+  }
+  #pictos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .item-pictos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-pictos span{
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .item-pictos img {
+    margin-top: 20px;
+  }
+
+  /* SECTION PURE business */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    margin-top: 70px;
+    gap:30px;
+  }
+
+  .left, .middle, .right {
+      flex: 1;
+  }
+
+  .right img {
+      width: 100%;
+      height: auto;
+  }
+
+  #business-container{
+    background-color: #51C43F;
+    padding: 50px;
+    display: flex;
+  }
+
+  #business-container h3{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 50px;
+    height: 60px;
+  }
+
+  #section-3rd{
+    height: 900px;
+    padding: 120px;
+    background-image: url('svg/offres/refonte/background_3rd.svg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #why-content{
+    margin-bottom: 150px;
+  }
+
+  #why-content h3{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: normal;
+  }
+
+  #why-content p{
+    width: 80%;
+  }
+
+  #call-action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  }
+
+  #call-action h3{
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #call-action p{
+    margin-bottom: 50px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .container-text-header {
+    position: relative;
+    top: -50px;
+    margin-left: 2vw;
+  }
+  
+  .container-subtitle {
+    width: 300px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  
+  .container-body-header {
+    width: 50%;
+    text-align: left;
+  }
+
+
+  .button-container {
+    margin-left: 2vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    .button-container {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+
+      margin-left: 0;
+    }
+
+    .center-content{
+      margin: 10vw auto 0px auto;
+    }
+    #header-container {
+      flex-direction: column;
+    }
+
+    .container-text-header {
+      width: 100%;
+  }
+  
+  .container-subtitle {
+    width: 100%;
+  }
+  
+  .container-body-header {
+    width: 100%;
+  }
+
+    .title-etiquette{
+      font-size: 32px;
+    }
+
+    .center-content,
+    .container,
+    .display-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #business-container h3 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .display-row p,
+    #call-action p {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .item-pictos {
+        width: 50%;
+    }
+
+    #pictos {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .container-text-header,
+    .container-subtitle,
+    .container-body-header {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    #section-3rd {
+      background: none;
+      height: 100%;
+      padding: 0 0px;
+      text-align: center;
+    }
+
+    #why-content {
+        background-image: url('svg/offres/refonte/fleches.svg');
+        background-size: cover;
+        background-position: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0 20px;
+    }
+
+    #why-content p{
+      width: 100%;
+    }
+
+    #call-action {
+        background-color: #51C43F;
+        padding: 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #call-action h3{
+        text-align: center;
+        color: white;
+    }
+    #call-action  p {
+      color: white;
+    }
+
+    .title-etiquette {
+      top: -85px;
+  }
+
+  .first-word {
+      text-align: left !important;
+  }
+
+  .second-word {
+      text-align: left !important;
+  }
+
+  .slogan-offre {
+      display: none;
+  }
+
+  #section-picto p {
+    margin:0px auto 30px;
+  }
+}

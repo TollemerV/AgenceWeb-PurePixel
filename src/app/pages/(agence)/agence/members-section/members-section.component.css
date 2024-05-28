@@ -1,0 +1,33 @@
+.pictures-container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.picture-container {
+    flex: 1 0 21%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+img {
+    margin: auto;
+}
+
+.name {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}

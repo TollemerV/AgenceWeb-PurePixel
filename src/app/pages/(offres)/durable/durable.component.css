@@ -1,0 +1,356 @@
+.center-content {
+    width: 90%;
+    margin: 10vw auto 120px auto;
+}
+
+
+/* Section HEADER/ETIQUETTE */
+
+#header-container {
+    height: 100%;
+    background: url('images/durable/header.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#etiquette-img {
+    position: relative;
+    top: 30px;
+}
+
+.item-pictos > img {
+    width : 100px;
+}
+
+.etiquette {
+    position: relative;
+    color: white;
+    margin-left: 1.5vw;
+}
+
+.title-etiquette {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    top: -110px;
+}
+
+.slogan-offre {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    top: -120px;
+}
+
+.first-word {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#text-content {
+    width: 60%;
+}
+
+.container-text-header {
+    position: relative;
+    top: -50px;
+    margin-left: 2vw;
+}
+
+.container-subtitle {
+    width: 350px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.container-body-header {
+    width: 50%;
+    text-align: left;
+}
+
+.container-text-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+
+.part {
+    width: 47%;
+    text-align: left;
+    float: left;
+}
+
+li {
+    display: list-item !important;
+    list-style-type: disc;
+    color: white;
+    margin-left: 20px;
+    margin-top: -15px;
+    line-height: 17px;
+}
+
+li > p {
+    width: 100% !important;
+}
+
+.part>p {
+    width: 100% !important;
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+}
+
+.button-margin {
+    margin-left: 2vw;
+}
+
+
+/* SECTION TEXTE/PICTOGRAMMES */
+
+
+#section-background-fleche {
+    background-image: url('svg/offres/durable/fleche.svg');
+    background-repeat: repeat-x;
+    background-size: 30% 100%;
+}
+
+#section-picto h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#section-picto p {
+    width: 70%;
+    margin: 20px auto 100px auto;
+}
+
+#pictos {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-pictos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-pictos span {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.item-pictos img {
+    margin-top: 20px;
+}
+
+/* SECTION PURE AUDIT */
+
+#audit-container {
+    background-color: #FFD833;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#audit-container h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 50px;
+    height: 60px;
+}
+
+#audit-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 850px;
+}
+
+.white-text p {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    width: 50%;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+#image-content {
+    justify-content: end;
+    align-items: end;
+    width: 30%;
+}
+
+#section-3rd {
+    height: 900px;
+    padding: 120px;
+    background-image: url('svg/offres/durable/choose-pack-background.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#why-content {
+    margin-bottom: 200px;
+}
+
+#why-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: normal;
+}
+
+#why-content p {}
+
+#call-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#call-action h3 {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#call-action p {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    li{
+        list-style-type: none;
+    }
+
+    #audit-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #text-content {
+        width: 100%;
+    }
+
+    .container-text-header {
+        width: 100%;
+    }
+
+    .container-body-header {
+        width: 100%;
+    }
+
+    #pictos {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    h3 {
+        font-size: 30px !important;
+    }
+
+    .item-pictos {
+        margin-top: 100px;
+    }
+
+    p {
+        text-align: center !important;
+    }
+
+    .container-subtitle {
+        width: 100%;
+    }
+
+    button {
+        margin: auto !important;
+        text-align: center;
+        margin-bottom: 25px !important;
+    }
+
+    .center-content {
+        text-align: center;
+    }
+
+        .right-part {
+            margin-top: 0px;
+        }
+
+    .container-text-body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part {
+        width: 100% !important;
+        margin-top: 50px !important;
+    }
+
+    #section-3rd {
+        padding: 0;
+        background-image: url('svg/offres/durable/choose-pack-background.svg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: min-content;
+    }
+
+    h3 {
+        text-align: center !important;
+    }
+
+    #why-content {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    #call-action {
+        margin-left: 25px;
+        margin-right: 30px;
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .title-etiquette {
+        top: -85px;
+    }
+
+    .first-word {
+        text-align: left !important;
+    }
+
+    .second-word {
+        text-align: left !important;
+    }
+
+    .slogan-offre {
+        display: none;
+    }
+
+    #header-container{
+        margin-top: 100px;
+    }
+
+}

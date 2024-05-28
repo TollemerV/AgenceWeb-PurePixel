@@ -1,0 +1,68 @@
+.rdv-container {
+    width: 100%;
+    background-image: url('svg/agence/background-rdv.svg');
+    background-repeat: repeat-x;
+    background-size: cover;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-part {
+    width: 45%;
+}
+
+.right-part {
+    width: 45%;
+}
+
+.description {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.welcome {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .left-part {
+        width: 100%;
+    }
+
+    .right-part {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .rdv-container {
+        width: 100%;
+        background-image: url('svg/agence/background-rdv.svg');
+        background-repeat: repeat-x;
+        background-size: cover;
+        padding: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    img {
+        margin: auto;
+    }
+
+    p {
+        text-align: center;
+    }
+}

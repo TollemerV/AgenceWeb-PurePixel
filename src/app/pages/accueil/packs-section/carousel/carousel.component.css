@@ -1,0 +1,13 @@
+.container{
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    img {
+        display: none;
+    }
+}

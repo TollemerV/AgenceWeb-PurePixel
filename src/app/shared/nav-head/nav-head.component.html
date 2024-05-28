@@ -1,0 +1,29 @@
+<div class="menu-container" [ngClass]="{'menu-open': isMenuOpen}">
+
+  <!-- Logo -->
+  <div id="logo-container">
+    <img id="logo" src="logo_rectangle.svg" class="logo-desktop" alt="Logo" routerLink="/">
+  </div>
+
+  <!-- Icône du menu mobile  -->
+  <div class="icon-mobile-menu" (click)="toggleMobileMenu()" *ngIf="($isMobile | async)?.matches">
+    <i class="fas fa-bars"></i>
+  </div>
+
+
+  <!-- Menu de navigation -->
+  <nav class="menu">
+    <div class="dropdown" (mouseenter)="toggleDropdown()" (mouseleave)="toggleDropdown()">
+      <a class="dropbtn" (click)="logAndToggleDropdown($event)">Nos offres</a>
+      <div class="dropdown-content" [ngClass]="{'show': isDropdownOpen, 'hide': !isDropdownOpen}">
+        <a routerLink="/audit">Pack Audit</a>
+        <a routerLink="/durable">Pack Durable</a>
+        <a routerLink="/referencement">Pack Référencement</a>
+        <a routerLink="/business">Pack Business</a>
+        <a routerLink="/refonte">Pack Refonte</a>
+      </div>
+    </div>
+    <a routerLink="/agence">L'agence</a>
+    <a routerLink="/contact">Contact</a>
+  </nav>
+</div>

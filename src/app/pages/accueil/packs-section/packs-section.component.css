@@ -1,0 +1,27 @@
+.contact-us-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+img {
+    z-index: -1000;
+    position: absolute;
+    width: 40%;
+    transform: rotate(155deg);
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 90%;
+    align-self: center;
+    margin: auto;
+}

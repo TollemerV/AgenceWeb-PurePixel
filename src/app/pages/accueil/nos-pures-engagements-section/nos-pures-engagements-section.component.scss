@@ -1,0 +1,99 @@
+p {
+    font-size: 15px;
+    text-align: left;
+}
+
+.first-text {
+    font-size: 17px !important;
+}
+
+
+.learn-more-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.illustration {
+    margin-left: 0 !important;
+    width: 15%;
+}
+
+.text-img-container{
+    width : 100%;
+    max-width: 90%;
+    margin: auto;
+    align-self: center;
+}
+
+.span1{
+    font-size: 14px;
+    align-self: self-start;
+}
+
+.span2 {
+    font-size: 14px;
+    align-self: self-end;
+}
+
+.arrow{
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icones{
+    width: 25%;
+    margin-left: -10%;
+    margin-right: 3%;
+}
+
+.icones-title-container{
+    display: flex-start;
+}
+
+.arrow-container{
+    display: block;
+    height : 100%;
+    width: 30%;
+    margin-left: -7%;
+    margin-right: 7%;
+}
+
+.puzzle-container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    width: 100%;
+    height: 100%;
+    margin-top: 3em;
+}
+
+.puzzle{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile {
+        display:flex;
+    }
+
+    .puzzle-container {
+        display: none;
+    }
+}

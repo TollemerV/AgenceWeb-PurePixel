@@ -1,0 +1,10 @@
+<!-- button.component.html -->
+<a (click)="linkClicked.emit()" type="button" [ngStyle]="{ 'text-align': 'center', 'background-color': background, 'color': textColor }">
+  <ng-container *ngIf="icon">
+    <span>{{ buttonText }}</span>
+    <i class="fa" [class]="icon"></i>
+  </ng-container>
+  <ng-container *ngIf="!icon">
+    <span>{{ buttonText }}</span>
+  </ng-container>
+</a>

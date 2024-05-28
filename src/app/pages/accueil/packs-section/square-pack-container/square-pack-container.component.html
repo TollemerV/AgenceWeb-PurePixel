@@ -1,0 +1,8 @@
+<div class="all-container">
+    <div class="container">
+        <pp-square-pack *ngFor="let item of listOfPacks1" [image]="item.image" [text]="item.text" [title]="item.prefix" [paragraphs]="item.paragraphs" [url]="item.url"/>
+    </div>
+    <div class="container">
+        <pp-square-pack *ngFor="let item of listOfPacks2" [image]="item.image" [text]="item.text" [title]="item.prefix" [paragraphs]="item.paragraphs" [url]="item.url"/>
+    </div>
+</div>

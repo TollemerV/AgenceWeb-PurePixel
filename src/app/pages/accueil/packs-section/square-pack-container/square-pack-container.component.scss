@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.bg{
+    position: absolute;
+    z-index: -1000;
+    width: 40%;
+    transform: rotate(155deg);
+    opacity: 0.5;
+}
+
+.all-container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.bg1{
+    bottom: 0%;
+    left: -10%;
+}
+
+.bg2{
+    top: 5%;
+    right : -10%;
+
+}

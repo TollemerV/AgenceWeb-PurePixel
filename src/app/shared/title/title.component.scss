@@ -1,0 +1,23 @@
+.title-container {
+    line-height: 150%;
+    text-align: var(--align);
+
+    @media only screen and (max-width: 768px) {
+        text-align: var(--mobilealign);
+    }
+}
+
+.subtitle{
+    line-height: normal !important;
+    color: transparent !important;
+}
+
+.h2 {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+

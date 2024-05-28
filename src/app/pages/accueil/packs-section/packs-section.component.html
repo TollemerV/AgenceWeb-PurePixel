@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="title-container">
+        <pp-title align="left" title="Nos offres" subtitle="Services" />
+    </div>
+    <pp-square-pack-container *ngIf="!isMobileResolution"></pp-square-pack-container>
+    <pp-carousel *ngIf="isMobileResolution"></pp-carousel>
+</div>

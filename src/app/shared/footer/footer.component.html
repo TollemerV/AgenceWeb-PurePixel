@@ -1,0 +1,24 @@
+<!-- shared/footer/footer.component.html -->
+<div class="footer-container">
+    <img src="logo_ligne.png" alt="" (click)="redirectToPage('/')" />
+    <div class="elements">
+        <pp-custom-link class="underline" [linkText]="'Accueil'" (linkClicked)="redirectToPage('/')"></pp-custom-link>
+        <pp-custom-link class="underline" [linkText]="'Estimation'" (linkClicked)="redirectToPage('https://form.jotform.com/240862346664058')"></pp-custom-link>
+        <pp-custom-link class="underline" [linkText]="'L\'agence'" (linkClicked)="redirectToPage('/agence')"></pp-custom-link>
+        <pp-custom-link class="underline" [linkText]="'Contact'" (linkClicked)="redirectToPage('/contact')"></pp-custom-link>
+    </div>
+    <div class="elements">
+        <a class="tel" href="tel:0652207406">06.52.20.74.06</a>
+    </div>
+    <div class="elements">
+        <p class="text-footer">L'Équipe PurePixel vous remercie !</p>
+    </div>
+    <div class="custom-text-style">
+        <pp-custom-link [customTextFontWeight]="'400'" [linkText]="'Mentions légales'" (linkClicked)="redirectToPage('/chemin-vers-page')"></pp-custom-link>
+        |
+        <pp-custom-link [customTextFontWeight]="'400'" [linkText]="'Politique de confidentialité'" (linkClicked)="redirectToPage('/chemin-vers-page')"></pp-custom-link>
+        | &nbsp;&nbsp;&nbsp;&nbsp;Tous droits réservés ©
+
+    </div>
+</div>
+
