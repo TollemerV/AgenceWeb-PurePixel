@@ -225,7 +225,7 @@ margin: 10px 30px 0 0;
 @media screen and (max-width: 768px) {
 
   #header-container{
-    height: 50vh;
+    height: 100%;
   }
   #audit-container {
       flex-direction: column;
